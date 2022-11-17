@@ -1,0 +1,172 @@
+--Ampeg Manual Test Project--
+https://ampeg.com/
+
+1. You decide what should be priority (to test) in the webapp.
+2. 6 manual test cases total.
+3. Ensure to include what 'should' be included in a manual test (title, summary, etc).
+4. Ensure that 5 tests consist of navigating to more than one page.
+5. Ensure that 2 tests consist of navigating to 3 or more pages.
+
+
+Test Case 1
+
+Title 
+Creating an Account 
+
+Summary
+The user will be able to create an account and login to the website.
+
+Test objective
+To check whether A first time user of the website will be able to create an account or if a user that wants to create multiple accounts will be able to. 
+
+Steps Taken 
+1. Have the ampeg website open
+2. the header will consist of multiple words one of which is "shop", next to this will be a "person icon", click on the icon, it will open a pop up box 
+3. on the pop up box, click on "Create account" 
+4. the user will be redirected to a new page where they will be able to put their information in the feilds and then create their account by clicking "create your account". 
+5. the user will then be redirected to "account home" page. which is their profile page
+
+Expected result
+the user will be able to create an account
+
+Actual result
+the user was able to create an account and then automatically logged in the site and redirected to their profile page. 
+
+
+
+Test Case 2
+
+Title
+Contacting the Company
+
+Summary
+the user will be able to contact the company. 
+
+Test Objective
+To check whether a user who has a question about the website will be able to contact the company without any problems. 
+
+Steps taken
+1. be on the home page of the ampeg website 
+2. navigate to the bottom of the website using the scroll down slider on the right side of the screen. 
+3. on the bottom of the page there will be the term "company" in bold letter
+4. under which there will be "contact Us", click on this.
+5. the user will be redirected to another page, this page will have information about how they can contact the company. 
+
+Expected result
+the user will be able to contact the company by using the contact us page.
+
+Actual result
+the user will be able to contact the company by choosing whichever is best for them and also be able to give feedback through the contact us page.
+
+
+
+Test Case 3
+
+Title
+Ampeg History 
+
+Summary
+The user will be able to learn about ampeg's history
+
+Test Objective
+To test whether a user will be able to gather information about the history of ampeg 
+
+Steps taken
+1. be on ampeg homepage 
+2. at the very top of the website there will be multiple words written, one of which is "history"
+3. click on "history" 
+4. the user will be directed to another page where they will be able to see ampeg's history information. 
+5. at the bottom of the page, the user is also able to buy a book about ampeg which will have detailed information.
+6. at the bottom of the page click on amazon.com, it will be bold and underlined.
+7. user will be redirected to amazon where they will be able to buy a book. 
+
+Expected result
+the user is able to learn about the history 
+
+Actual result
+the user is able to learn about ampeg and if they want additional information they will be able to go to amazon and buy a book about ampeg.
+
+
+
+Test Case 4
+
+Title
+Artists 
+
+Summary
+the user will be able to learn about the artists that have used ampeg products 
+
+Test Objective
+To check whether a user is able to access information about an artist that has used ampeg products or if they want to check for a specific artist. 
+
+Steps taken
+1. Be on ampeg homepage. 
+2. at the top in the header, there will be "artists" written.
+3. click on "artists"
+4. the user will be redirected to a new page where they will be able to see one of the artists that used ampeg.
+5. for a specific artist, navigate to the bottom of the page and a list of names will be visible.
+6. clicking on any of the name the user will be directed to another page which will have the information about that specific artist. 
+
+
+Expected result
+the user is able to learn about artist that have used ampeg products 
+
+Actual result
+the user is see all the artists and read a brief discription about the artist that have used ampeg products. 
+
+
+
+Test Case 5
+
+Title
+the search function 
+
+Summary
+the user is able to search for a specific item they want. 
+
+Test Objective
+to check whether the search function is able to give user information they want
+
+Steps taken
+1. be on the ampeg homepage
+2. in the header, at the top right side there will be a search icon
+3. click on the search icon and then user will be able to type in what they are looking for. for example "Rocket bass" 
+4. the user will then be directed to another page "duckduckgo.com" which will have specific search results about the ampeg website and rocket bass. 
+5. the user will be able to navigate this page and find "ampeg:rocket bass", it will be the very first thing. 
+6. click on "ampeg:rocket bass"
+7 the user will then be directed back to rocket bass page in the ampeg website. 
+
+Expected result
+the user will search a specific keyword and they will be directed within the ampeg page regarding information about the keyword
+
+Actual result
+the user was sent to a differnet website that had results regarding their search.
+
+
+Test Case 6
+
+Title
+Buying Merch 
+
+Summary
+the user will be able to buy ampeg merch 
+
+Test Objective
+to test whether a user that wants to buy ampeg clothing will be able to. 
+
+Steps taken
+1.be on the ampeg homepage.
+2. in the header click "shop"
+3. the user will be directed to ampeg shop website where they will be able to click "merch" on the header, at the top right side.
+4. the user will then be directed to another page where they will be able to browse through the clothings.
+5. the user will then be select the clothing, which will take them to another page which will have the option to select thier size.
+6. after selecting size the user will be able to add the product to their cart by clicking "add to cart"
+7. at the top right there will be a shopping cart icon which will open a pop up
+8. click on "proceed to checkout" and then the user will be able to complete the transaction
+
+Expected result
+users being able to buy the multiple selection of clothing that ampeg offers 
+
+Actual result
+users are able to buy the products without any problems. 
+

@@ -7,6 +7,6 @@ public class State {
 	public State(String name, String abbreviation) {
 		this.Name = name;
 		this.Abbreviation = abbreviation;
-	
+
 	}
 }

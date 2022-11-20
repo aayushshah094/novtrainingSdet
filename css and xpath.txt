@@ -16,14 +16,13 @@ $("#app > footer > span")
 $("#nav > li")
 
 5. Page: /select-menu. Write a selector that will get the option element where value = 4.
-$("option[value='4']")
+div#selectMenuContainer option[value="4"]
 
 6.Page: /slider. Write the JavaScript to get the value for the element with id=sliderValue.
-document.getElementById("sliderValue")
+document.getElementsByClassName('range-slider range-slider--primary')[0].value
 
 7. Page: /text-box. Write the JavaScript to set the value for the element with id=username
-document.querySelector("#userName")
-
+document.getElementsByClassName('range-slider range-slider--primary')[0].value=30
 
 
 X-Path 
@@ -38,7 +37,7 @@ $x("//button")
 $x("//div[@class='rt-td'][text()='Vega']")
 
 4. Page: /radio-button. Write the xpath that will return the parent element for the radio button with id=’impressiveRadio’.
-$x("//input[@id='impressiveRadio']")
+$x("//input[@id="impressiveRadio"]/div::parent")
 
 5. Page: /radio-button. Write the xpath that will return all DIV ancestors for the radio button with id=’impressiveRadio’.
 $x("//input[@id='impressiveRadio']/ancestor::div")

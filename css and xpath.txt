@@ -1,0 +1,50 @@
+CSS project 
+
+1. Page: /text-box. Write a selector that will return the ‘Full Name’ textbox using the ID attribute.
+Hint: This element has the ‘input’ tag.
+
+$("[id=userName]")
+
+2. Page: /buttons. Write a selector that will return all 3 buttons shown below
+
+$("button[class~=btn-primary]")
+
+3. Page: /buttons. Write a selector that will return the span element in the footer.
+$("#app > footer > span")
+
+4. Page: /menu. Write a selector that will return the 3 list item elements in the unordered list
+$("#nav > li")
+
+5. Page: /select-menu. Write a selector that will get the option element where value = 4.
+$("option[value='4']")
+
+6.Page: /slider. Write the JavaScript to get the value for the element with id=sliderValue.
+document.getElementById("sliderValue")
+
+7. Page: /text-box. Write the JavaScript to set the value for the element with id=username
+document.querySelector("#userName")
+
+
+
+X-Path 
+
+1. Page: /text-box. Write the xpath that will return the ‘Full Name’textbox using the ID attribute.
+$x("//input[@id='userName']")
+
+2. Page: /buttons. Write the xpath that will return all elements on the page with the ‘button’tag.
+$x("//button")
+
+3. Page: /webtables. Write the xpath that will return the div with text of ‘Vega’. Ensure to narrow the scope of your xpath to the ReactTable and ensure that your xpath is limited to returning cells only. Cells in this table have the class ‘rt-td’. 
+$x("//div[@class='rt-td'][text()='Vega']")
+
+4. Page: /radio-button. Write the xpath that will return the parent element for the radio button with id=’impressiveRadio’.
+$x("//input[@id='impressiveRadio']")
+
+5. Page: /radio-button. Write the xpath that will return all DIV ancestors for the radio button with id=’impressiveRadio’.
+$x("//input[@id='impressiveRadio']/ancestor::div")
+
+6. Page: /radio-button: Write the xpath that will return the sibling for the radio button with id=’impressiveRadio’. Do not use the sibling axes. Navigate to the parent element then down to the sibling instead.
+$x("//input[@id='impressiveRadio']/parent::div/label")
+
+7.Page: /buttons. Write the xpath that will return all buttons containing the value “Click”.
+$x("//button[contains(text(),'Click')]")
